@@ -144,7 +144,7 @@
                 <BigCard classes="relative" title="PyTools" icon="fi fi-rr-snake">
                     {#snippet children(_)}
                         <span>Ein JavaFX programm welches python programme mit Eingabefeldern ausführt.</span>
-                        <OpenCard classes="absolute top-0 right-1 aspect-square" href="https://github.com/NelsonKhalil/LebenslaufWebsite" icon="fi fi-rr-link" />
+                        <OpenCard classes="absolute top-0 right-1 aspect-square" href="https://github.com/NelsonKhalil/PyTools" icon="fi fi-rr-link" />
                         <UnfinishedLabel classes="absolute top-0 right-9 aspect-square" />
                     {/snippet}
                 </BigCard>
@@ -163,7 +163,7 @@
                     {#snippet children(_)}
                         <span>Das ist diese Website!</span>
                         <IconCard classes="mt-5" text="Svelte" icon="fi fi-rr-code-simple" />
-                        <OpenCard classes="absolute top-0 right-1 aspect-square" href="https://github.com/NelsonKhalil/LebenslaufWebsite" icon="fi fi-rr-link" />
+                        <OpenCard classes="absolute top-0 right-1 aspect-square" href="https://github.com/NelsonKhalil/nelson-khalil.github.io" icon="fi fi-rr-link" />
                     {/snippet}
                 </BigCard>
             </div>
