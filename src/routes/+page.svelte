@@ -140,7 +140,7 @@
     <section id="projekte" class="scroll-mt-16 grid grid-cols-1 grid-rows-3 gap-4 m-8 mt-32 rounded p-4 backdrop-blur-[1px] outline-2 outline-white shadow-2xl">
         <div>
             <span class="m-2 text-3xl italic border-b-3 border-violet-600">Java</span>
-            <div class="m-1 mt-8 grid xl:grid-cols-8 md:grid-cols-4 grid-cols-2 grid-rows-1 gap-4">
+            <div class="m-1 mt-8 grid xl:grid-cols-6 lg:grid-cols-4 grid-cols-2 grid-rows-1 gap-4">
                 <BigCard classes="relative" title="PyTools" icon="fi fi-rr-snake">
                     {#snippet children(_)}
                         <span>Ein JavaFX programm welches python programme mit Eingabefeldern ausführt.</span>
@@ -152,13 +152,13 @@
         </div>
         <div>
             <span class="m-2 text-3xl italic border-b-3 border-violet-600">Python</span>
-            <div class="m-1 mt-8 grid xl:grid-cols-8 md:grid-cols-4 grid-cols-2 grid-rows-1 gap-4">
+            <div class="m-1 mt-8 grid xl:grid-cols-6 lg:grid-cols-4 grid-cols-2 grid-rows-1 gap-4">
                 
             </div>
         </div>
         <div>
             <span class="m-2 text-3xl italic border-b-3 border-violet-600">Sonstiges</span>
-            <div class="m-1 mt-8 grid xl:grid-cols-8 md:grid-cols-4 grid-cols-2 grid-rows-1 gap-4">
+            <div class="m-1 mt-8 grid xl:grid-cols-6 lg:grid-cols-4 grid-cols-2 grid-rows-1 gap-4">
                 <BigCard classes="relative" title="Lebenslauf Website" icon="fi fi-rr-resume">
                     {#snippet children(_)}
                         <span>Das ist diese Website!</span>
